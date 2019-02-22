@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D44F5706221F7766005AD20F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F5705221F7766005AD20F /* DataModel.swift */; };
 		D4547703221B4C3400B177B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4547702221B4C3400B177B8 /* AppDelegate.swift */; };
 		D4547705221B4C3400B177B8 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4547704221B4C3400B177B8 /* TodoListViewController.swift */; };
 		D4547708221B4C3400B177B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4547706221B4C3400B177B8 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D44F5705221F7766005AD20F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		D45476FF221B4C3400B177B8 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4547702221B4C3400B177B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4547704221B4C3400B177B8 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				D4547702221B4C3400B177B8 /* AppDelegate.swift */,
 				D4547704221B4C3400B177B8 /* TodoListViewController.swift */,
+				D44F5705221F7766005AD20F /* DataModel.swift */,
 				D4547706221B4C3400B177B8 /* Main.storyboard */,
 				D4547709221B4C3500B177B8 /* Assets.xcassets */,
 				D454770B221B4C3500B177B8 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				D4547705221B4C3400B177B8 /* TodoListViewController.swift in Sources */,
 				D4547703221B4C3400B177B8 /* AppDelegate.swift in Sources */,
+				D44F5706221F7766005AD20F /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
